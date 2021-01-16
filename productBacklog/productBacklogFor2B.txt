@@ -1,0 +1,126 @@
+As a user, I can quit the program. (exit)                                                                    | Done    |
+_____________________________________________________________________________________________________________|_________|
+As a user, I have access to a file system of files and directories so that I can work with my data.          | Done    |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can see a personalized error message so that I can easily know what is going wrong.             | Done    |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can see the prompt for input so that I know when to input.                                      | Done    |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can get back an audible form of what I typed so that I can hear my input. (speak)               | Done    |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can see the directory I am currently working in so that I know which directory I am in. (pwd)   | Done    |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can see all the contents (file or directory) in the directory I am currently in so that I am    | Done    |
+aware of the contents of the directory I am in. (ls)                                                         |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can see all the contents (file or directory) of any directory that I give a path for so that I  | Done    |
+am aware of the contents of the directory I give. (ls)                                      		     |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can see the name of a specific file that I give a path to so that I can easily access the file  | Done    |
+name. (ls)        							                                     |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can list all the contents of every subdirectory within the given directory so that I can easily | 2 days  |
+see all the contents of a directory and all its subdirectories. (ls)    				     |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can create a new directory so that there exists a desired directory wherever I specify it.      | Done    |
+(mkdir)            						                                             |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can create multiple new directories so the desired directories exist wherever I specify it.     | 2 days  |
+(mkdir)   				 				                                     |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can go to the parent directory without giving a full path so that I can conveniently navigate   | Done    |
+up in directories. (cd)                                                                                      |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can go to the child directory without giving a full path so that I can conveniently navigate    | Done    |
+down in directories. (cd)                                                                                    |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can change directories using the full directory path so that I can work in a different          | Done    |
+directory. (cd)                                                                                              |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can see the history of all my input so that I am aware of previous commands. (history)          | Done    |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can specify the number of previous inputs I want to see so that I can see the most              | Done    |
+recent inputs. (history)                                                                                     |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can see the contents of a single file so that I am aware of the files contents. (cat)           | Done    |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can see the contents of two or more files concatenated in the Shell so that I am aware of the   | Done    |
+files contents. (cat)                                                                                        |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can see an appropriate error message for any invalid files that I enter so that I am aware of   | 1 day   |
+which files do not exist (cat).                                                                              |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can put text in a new file with any name that I specify so that there is desired content in a   | Done    |
+new file. (echo > & echo >>)                                                                                 |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can overwrite the contents of any file with any text I specify so that a file contains the      | Done    |
+desired content. (echo >)                                                                                    |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can add any text to a file I specify so that I can add to the current content of the file.      | Done    |
+(echo >>)                                                                                                    |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can see the documentation for the program so that I can understand how the program works.       | Done    |
+(man CMD)                                                                                                    |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can save the current directory so that I can return to it at any time. (pushd)                  | Done    |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can return to my last saved directory so that I can continue working. (popd)                    | Done    |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can remove a directory and all its contents from the file system so that an unwanted directory  | 1 day   |
+is no longer in the file system (rm )                                                                        |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can move a file from one directory to a specified directory so that I can have the file in my   | 2 days  |
+desired location. (mv)                                                                                       |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can move the contents from one file to another specified file and remove the original file so   | 2 days  |
+that I have the contents of a file in a new desired file. (mv)                                               |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can move a directory and all its contents into a specified directory so that I can have the     | 2 days  |
+directory at my desired location. (mv)									     |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can copy the contents of a file to another specified file so that there exists a copy of the    | 1 day   |
+file in my desired location. (cp)									     |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can copy a file to a specified directory so that I have a copy of the file in my desired 	     | 1 day   |
+location. (cp)												     |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can copy a directory and all its contents to a specified directory so that a copy of the        | 2 days  |
+directory exists in my desired location. (cp)                                                                |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can add a file from a specified URL in my current working directory so that I can easily        | 3 days  |
+access a file from the Internet in my working directory. (curl)                                              |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can save all the contents of the JShell file system to a file on my computers File System       | 3 days  |
+so that I can easily access my JShell file system. (save)                                                    |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can save the state of all commands from my current session to a file on my computers File       | 3 days  |
+System so that I can easily access the current state when needed. (save)                                     |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can retrieve the previous state of the file system at the beginning of the session so that I    | 2 days  |
+can resume working where I left off. (load)      			                                     |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can start from where I left off from a previous session, at the beginning of the current        | 3 days  |
+session, so that I can resume working where I left off. (load) 		                                     |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can search for a file in the directory/directories that I specify so that I can know if it      | 2 days  |
+exists in the specified locations. (find)                                                                    |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can search for a directory in the directory/directories that I specify so that I can know of    | 2 days  |
+all existing directories with that name. (find)                                                              |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can see all contents of my root directory (including files, directories and their contents)     | 2 days  |
+ as a tree so that I can see all the contents of my file system and the relationships between them. (tree)   |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can append all information output by a command in an existing file instead of seeing the        | 2 days  |
+result in Shell, so that the information is saved in a desired file.                                         |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can overwrite all contents of an existing file with the information returned by command         | 2 days  |
+instead of seeing the result in Shell, so that the information is stored in a desired file.                  |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can store all contents returned by command into a new file instead of seeing the result in      | 1 days  |
+Shell, so that the information is stored in a desired file.                                                  |         |
+_____________________________________________________________________________________________________________|_________|
+
+ 
+
+

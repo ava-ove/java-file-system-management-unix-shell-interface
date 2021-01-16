@@ -1,0 +1,78 @@
+Sprint 5 Backlog 
+July 24 - August 2
+
+User Stories from Product Backlog that we will address in this sprint:
+a) As a user, I can add a file from a specified URL in my current working directory so that I can easily access a file from the Internet in my working directory. (curl)
+b) As a user, I can start from where I left off from a previous session, at the beginning of the current session, so that I can resume working where I left off. (load)
+c) As a user, I can search for a file in the directory/directories that I specify so that I can know if it exists in the specified locations. (find)
+d) As a user, I can search for a directory in the directory/directories that I specify so that I can know of all existing directories with that name. (find)
+e) As a user, I can append all information output by a command in an existing file instead of seeing the result in Shell, so that the information is saved in a 
+desired file. 
+f) As a user, I can overwrite all contents of an existing file with the information returned by command instead of seeing the result in Shell, so that the information 
+is stored in a desired file. 
+g) As a user, I can store all contents returned by command into a new file instead of seeing the result in Shell, so that the information is stored in a desired file. 
+
+Specific tasks to be accomplished:
+0) Add CRC for new classes and modify existing ones
+1) Add unit testing for most classes
+1.1) Unit test for Curl
+1.2) Unit test for DirectoryChanger
+1.3) Unit test for DirectoryMaker
+1.4) Unit test for DirectoryRemover
+1.5) Unit test for DirStackPopper
+1.6) Unit test for DirStackPusher
+1.7) Unit test for Echo
+1.8) Unit test for ElementCopier
+1.9) Unit test for ElementFinder
+1.10) Unit test for ElementMover
+1.11) Unit test for FileAppender
+1.12) Unit test for FileConcatenater
+1.13) Unit test for FileOverwriter
+1.14) Unit test for FileSystemModifier
+1.15) Unit test for FullPathGiver
+1.16) Unit test for InputParser
+1.17) Unit test for ListofContents
+1.18) Unit test for Loader
+1.19) Unit test for ProgramQuitter
+1.20) Unit test for Redirection
+1.21) Unit test for Saver
+1.22) Unit test for ShellOutput
+1.23) Unit test for Tree
+1.24) Unit test for TreeIterator
+1.25) Unit test for UserManual
+1.26) Unit test for ValidFileSysElement
+1.27) Unit test for WorkingDirectory
+1.28) Unit test for TreeTraversalIterator 
+a-1) (Curl) Get file name and content from URL
+a-2) (Curl) Add file with content to current working directory
+b-1) (Loader) Get saved input log and set JShell's input log
+b-2) (Loader) Get saved current path and set JShell's current path
+b-3) (Loader) Get saved directory stack and set current DirectoryStack
+b-4) (Loader) Get saved file system and set current file system
+c-1) (ElementFinder) Search for file with given name in the specified directory/file paths(s)
+c-2) (ElementFinder) Output full paths of all the files found with the given name
+c-3) (ElementFinder) Redirect output to append/overwrite to file
+d-1) (ElementFinder) Search for directory with given name in the specified directory/file path(s)
+d-2) (ElementFinder) Output full paths of all the directories found with the given name
+d-3) (ElementFinder) Redirect output to append/overwrite to file
+e-1) (ListOfContents) Append ls output to file
+e-2) (Tree) Append tree output to file
+f-1) (ListOfContents) Overwrite file's content with ls output
+f-2) (Tree) Overwrite file's content with ls output
+g-1) (ListOfContents) Add output from ls to file
+g-2) (Tree) Add output from tree to file
+
+
+These tasks are assigned as follows:
+
+User: Fariha Fyrooz
+Tasks: 0, 1.1, 1.3, 1.8, 1.12, 1.22, 1.27, a-1, a-2
+
+User: Raisa Haque 
+Tasks: 0, 1.2, 1.5, 1.6, 1.9, 1.10, 1.15, 1.19, 1.24, 1.25, c-1, c-2, c-3, d-1, d-2, d-3
+
+User: Ava Oveisi
+Tasks: 0, 1.7, 1.17, 1.20, 1.23, 1.28, [e1, e2, f1, f2, g1, g2 (carried over)]
+
+User: Ananya Poddar
+Tasks: 0, 1.4, 1.11, 1.13, 1.14, 1.16, 1.18, 1.21, 1.26, b-1, b-2, b-3, b-4

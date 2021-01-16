@@ -1,0 +1,59 @@
+As a user, I can quit the program. (exit)                                                                    | 1 day   |
+_____________________________________________________________________________________________________________|_________|
+As a user, I have access to a file system of files and directories so that I can work with my data.          | 4 days  |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can see a personalized error message so that I can easily know what is going wrong.             | 2 days  |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can see the prompt for input so that I know when to input.                                      | 2 days  |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can get back an audible form of what I typed so that I can hear my input. (speak)               | 2 day   |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can see the directory I am currently working in so that I know which directory I am in. (pwd)   | 1 days  |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can see all the contents (file or directory) in the directory I am currently in so that I am    | 2 days  |
+aware of the contents of the directory I am in. (ls)                                                         |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can see all the contents (file or directory) of any directory that I give a path for so that I  | 2 days  |
+am aware of the contents of the directory I give. (ls)                                      		     |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can see the name of a specific file that I give a path to so that I can easily access the file  | 1 day   |
+name. (ls)        							                                     |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can create a new directory so that there exists a desired directory wherever I specify it.      | 1 day   |
+(mkdir)            						                                             |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can go to the parent directory without giving a full path so that I can conveniently navigate   | 2 days  |
+up in directories. (cd)                                                                                      |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can go to the child directory without giving a full path so that I can conveniently navigate    | 2 days  |
+down in directories. (cd)                                                                                    |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can change directories using the full directory path so that I can work in a different          | 2 days  |
+directory. (cd)                                                                                              |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can see the history of all my input so that I am aware of previous commands. (history)          | 2 days  |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can specify the number of previous inputs I want to see so that I can see the most              | 1 day   |
+recent inputs. (history)                                                                                     |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can see the contents of a single file so that I am aware of the files contents. (cat)           | 2 days  |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can see the contents of two or more files concatenated in the Shell so that I am aware of the   | 2 days  |
+files contents. (cat)                                                                                        |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can put text in a new file with any name that I specify so that there is desired content in a   | 2 days  |
+new file. (echo > & echo >>)                                                                                 |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can overwrite the contents of any file with any text I specify so that a file contains the      | 2 days  |
+desired content. (echo >)                                                                                    |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can add any text to a file I specify so that I can add to the current content of the file.      | 3 days  |
+(echo >>)                                                                                                    |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can see the documentation for the program so that I can understand how the program works.       | 1 day   |
+(man CMD)                                                                                                    |         |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can save the current directory so that I can return to it at any time. (pushd)                  | 3 days  |
+_____________________________________________________________________________________________________________|_________|
+As a user, I can return to my last saved directory so that I can continue working. (popd)                    | 3 days  |
+_____________________________________________________________________________________________________________|_________|

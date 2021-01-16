@@ -1,0 +1,83 @@
+Sprint 4 Backlog 
+July 17 - July 23
+
+User Stories from Product Backlog that we will address in this sprint:
+a) As a user, I can remove a directory from the file system so that an unwanted directory is no longer in the file system. (rm)
+b) As a user, I can list all the contents of every subdirectory within the given directory so that I can easily see all the contents of a directory and all its subdirectories. (ls)
+c) As a user, I can create multiple new directories so the desired directories exist wherever I specify it.  (mkdir) 
+d) As a user, I can see an appropriate error message for any invalid files that I enter so that I am aware of which files do not exist (cat)
+e) As a user, I can move a file from one directory to a specified directory so that I can have the file in my desired location. (mv)
+f) As a user, I can move the contents from one file to another specified file and remove the original file so that I have the contents of a file in a new desired file. (mv)
+g) As a user, I can move a directory and all its contents into a specified directory so that I can have the directory at my desired location. (mv)
+h) As a user, I can copy the contents of a file to another specified file so that there exists a copy of the file in my desired location (cp)
+i) As a user, I can copy a file to a specified directory so that I have a copy of the file in my desired location. (cp)
+j) As a user, I can copy a directory and all its contents to a specified directory so that a copy of the directory exists in my desired location. (cp)
+k) As a user, I can save all the contents of the JShell file system to a file on my computer’s File System so that I can easily access my JShell file system. (save)
+l) As a user, I can save the state of all commands from my current session to a file on my computer’s File System so that I can easily access the current state when needed. (save)
+m) As a user, I can see all contents of my root directory (including files, directories and their contents) as a tree so that I can see all the contents of my filesystem and the relationships between them. (tree)
+n) As a user, I can append all information output by a command in an existing file instead of seeing the result in Shell, so that the information is saved in a desired file. 
+o) As a user, I can overwrite all contents of an existing file with the information returned by command instead of seeing the result in Shell, so that the information is stored in a desired file. 
+p) As a user, I can store all contents returned by command into a new file instead of seeing the result in Shell, so that the information is stored in a desired file. 
+
+
+Specific tasks to be accomplished:
+0) Add CRC cards for new classes and edit responsibilities for old classes
+1.1) Implement singleton for filesystem
+1.2) Make Command class abstract
+2) Add unit testing to current working classes
+a-1) (DirectoryRemover) Remove a directory 
+a-2) (DirectoryRemover) Remove all contents of directory 
+a-3) (DirectoryRemover) Recognize if non-existent directory given and give appropriate errors 
+b-1) (ListOfContents) Start on listing contents of all subdirectories within given directory recursively
+c-1) (DirectoryMaker) Create multiple directories 
+d-1) (FileConcatenator) Output error for invalid files but concatenate valid files
+e-1) (DirectoryMover) Move file from one directory to another 
+f-1)  (DirectoryMover) Copy contents in one file to another file
+f-2) (DirectoryMover) Delete the file whose contents were copied
+g-1) (DirectoryMover) Copy one directory to another
+g-2) (DirectoryMover) Remove original directory
+g-3) (DirectoryMover) Go through all subdirectories of original directory and change their paths accordingly 
+h-1) (DirectoryCopier) Copy file from one directory to another 
+i-1)  (DirectoryCopier) Copy contents in one file to another file
+j-1) (DirectoryCopier) Copy one directory to another
+j-2) (DirectoryCopier) Go through all subdirectories of original directory and change their paths accordingly 
+k-1) (Saver) Save the current FileSystem tree
+k-2) (Saver)  Save the current path
+k-3) (Saver) Save the directory stack
+l-1) (Saver)  Save the history of all commands
+m-1) (Tree) Start on displaying File System contents as a tree
+n-1) (Redirection) Write general code for file appending 
+n-2) (ListOfContents) Append ls output to file
+n-3) (WorkingDirectory) Append pwd output to file
+n-4) (FileConcatenator) Append cat output to file
+n-5) (UserManual) Append user manual output to file
+n-6) (History) Append history output to file
+n-7) (Tree) Append tree output to file
+o-1) (Redirection) Write general code for file overwriting
+o-2) (ListOfContents) Overwrite file’s content with ls output
+o-3) (WorkingDirectory) Overwrite file’s content with working directory output
+o-4) (FileConcatenator)  Overwrite file’s content with cat output  
+o-5) (UserManual) Overwrite file’s content with user manual output
+o-6) (History) Overwrite file’s content with history output
+o-7) (Tree) Overwrite file’s content with tree output
+p-1) (Redirection) Write general code for creating new file and adding output
+p-2) (ListOfContents) Add output from ls to file
+p-3) (WorkingDirectory) Add output from pwd to file
+p-4) (FileConcatenator) Add output from cat to file
+p-5) (UserManual)Add output from man to file
+p-6) (History) Add output from history to man
+p-7) (Tree) Add output from tree to file
+
+These tasks are assigned as follows:
+
+User: Fariha Fyrooz
+Tasks: 0, 2, c-1, d-1, h-1, i-1, j-1, j-2, n-3, n-4, o-3, o-4, p-3, p-4
+
+User: Raisa Haque 
+Tasks: 0, 2, e-1, f-1, f-2, g-1, g-2, g-3, n-5, o-5, p-5
+
+User: Ava Oveisi
+Tasks: 0, 2, b-1, m-1, n-1, n-2, n-7, o-1, o-2, o-7, p-1, p-2, p-7
+
+User: Ananya Poddar
+Tasks: 0, 1.1, 1.2, 2, a-1, a-2, a-3, k-1, k-2, k-3, l-1, n-6, o-6, p-6

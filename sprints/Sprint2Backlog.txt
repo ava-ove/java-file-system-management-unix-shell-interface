@@ -1,0 +1,54 @@
+Sprint 2 Backlog
+June 24 to June 30
+
+User Stories from Product Backlog that we will address in this sprint:
+a) [carried over] As a user, I can see a personalized error message so that I can easily know what is going wrong.
+b) [carried over] As a user, I can get back an audible form of what I typed so that I can hear my input. (Speak) 
+c) As a user, I can see all the contents (file or directory) in the directory I am currently in so that I am aware of the contents of the directory I amm in. (ls)
+d) As a user, I can see all the contents (file or directory) of any directory that I give a path for so that I am aware of the contents of the directory I give. (ls)
+e) As a user, I can see the name of a specific file that I give a path to so that I can easily access the file name. (ls)
+f) As a user, I can create a new directory so that there exists a desired directory wherever I specify it. (mkdir) 
+g) As a user, I can see the history of all my input in order so that I am aware of previous commands (history)
+h) As a user, I can specify the number of previous inputs I want to see so that I can see the most recent inputs. (history)
+i) As a user, I can see the documentation for the program so that I can understand how the program works. (man cmd)
+j) As a user, I can see the directory I am currently working in so that I know which directory I am in. (pwd) 
+k) As a user, I can go to the parent directory without giving a full path so that I can conveniently navigate up in directories. (cd)
+l) As a user, I can go to the child directory without giving a full path so that I can conveniently navigate down in directories. (cd)    
+m) As a user, I can change directories using the full directory path so that I can work in a different directory. (cd)
+
+
+Specific tasks to be accomplished:
+a-1. (ValidateDirectory) Ensure given full path is valid
+a-2. (ValidateDirectory) Ensure given relative path from directory is valid
+a-3. (ValidateDirectory) Ensure given file exists 
+b-1. (JShell) Keep getting user input for multiple lined input until input ends with QUIT
+c-1. (ListContents) List contents of current directory.
+d-1. (ListContents) List contents of directory given a full or relative path.
+e-1. (ListContents) Return file name when existing file name is given
+f-1. (MakeDirectory) Create new directory in current directory 
+f-2. (MakeDirectory) Create new directory given a full or relative path
+g-1. (History) Get all user input from JShell
+g-2. (History) Display history of all user inputs in numbered order
+h-1. (History) Display specified number of user inputs in numbered order from the most recent  
+h-2. (History) Validate arguments (number given)
+i-1. (UserManual) Display the documentation of the specified command
+i-2. (UserManual) Validate argument (command given)
+j-1. (JShell) Keep track of current path/directory
+j-2. (PrintWorkingDirectory) Print full path of the current working directory 
+k-1. (ChangeDirectory) Change directory to parent directory of current directory when given the appropriate argument
+l-1. (ChangeDirectory) Change current directory to child directory when given relative path  
+m-1. (ChangeDirectory) Change current directory to specified directory when given full path
+
+These tasks are assigned as follows:
+
+User: Fariha Fyrooz
+Tasks: f-1, j-1, k-1, l-1 
+
+User: Raisa Haque
+Tasks: c-1,  f-2, i-1,  j-2, m-1
+
+User: Ava Oveisi
+Tasks: b-1, d-1, e-1, h-2,  i-2
+
+User: Ananya Poddar
+Tasks: a-1, a-2, a-3, g-1, g-2, h-1

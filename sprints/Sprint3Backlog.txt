@@ -1,0 +1,43 @@
+Sprint 3 Backlog
+July 1 - July 8
+
+User Stories from Product Backlog that we will address in this sprint:
+a) [carried over] As a user, I can see the documentation for the program so that I can understand how the program works. (man cmd)
+b) As a user, I can see the contents of a single file so that I am aware of the contents of the file. (cat)
+c) As a user, I can see the contents of two or more files concatenated in the Shell so that I am aware of the contents of the file. (cat)
+d) As a user, I can put text in a new file with any name that I specify so that there is desired content in a new file. echo STRING [> OUTFILE] & echo>>  
+e) As a user, I can overwrite the contents of any file with any text I specify so that a file contains the desired content. echo STRING [> OUTFILE]   
+f) As a user, I can add any text to a file I specify so that I can add to the current content of the file. (echo >>)
+g) As a user, I can save the current directory so that I can return to it at any time. (pushd)
+h) As a user, I can return to my last saved directory so that I can continue working (popd)
+i) [carried over] As a user, I can see a personalized error message so that I can easily know what is going wrong.
+
+
+Specific tasks to be accomplished:
+0-1. Modify CRC Cards according to design changes.
+0-2. Add toString to every class, and javadoc to every method
+a-1. (UserManual) Make sure the user manual matches what each command does.
+a-2. (UserManual) Includes errors corresponding to specific commands
+b-1. (ConcatenateFile) Display contents of a single file 
+c-1. (ConcatenateFile) Display contents of multiple files
+d-1. (Echo) Based on input, figure out whether to invoke AppendFile or OverwriteFile class
+d-2. (Echo) Check if file exists; create new file in directory given if it does not exist.
+e-1. (OverwriteFile) Check if file has content, if yes, delete its content
+f-1. (AppendToFile) Add given content to given file
+g-1. (PushDirectory) Create a stack data structure to hold directories
+g-2. (PushDirectory) Add current working directory to stack and change directory to specified directory
+h-1. (PopDirectory) Remove the last entry in the directory stack and change directory to the one removed
+i-1. (PrintToShell) Output a selection of different error messages which all other commands can use 
+
+These tasks are assigned as follows:
+User: Fariha Fyrooz
+Tasks: 0-1, 0-2, a-2, b-1, c-1
+
+User: Raisa Haque
+Tasks: 0-1, 0-2, a-1, g-1, g-2, h-1
+
+User: Ava Oveisi
+Tasks: 0-1, 0-2, d-1, d-2
+
+User: Ananya Poddar
+Tasks: 0-1, 0-2, e-1, f-1, i-1

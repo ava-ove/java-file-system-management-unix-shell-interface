@@ -1,0 +1,36 @@
+Sprint 1 Backlog.  
+June 17 to June 23
+
+User Stories from Product Backlog that we will address in this sprint:
+a) As a user, I have access to a file system of files and directories so that I can work with my data
+b) As a user, I can see the prompt for input so that I know when to input. 
+c) As a user, I can see a personalized error message so that I can easily know what is going wrong.
+d) As a user, I can get back an audible form of what I typed so that I can hear my input. (speak)
+e) As a user, I can quit the program. (exit)
+
+Specific tasks to be accomplished:
+0. Create first draft of CRC cards
+a-1. (Directory) Start writing code for the class Directory.
+a-2. (File) Start writing code for the class File
+b-1. (JShell) Continually prompt user for input 
+b-2. (ParseInput) Parse the user input for proper keywords 
+c-1. (ValidateCommand) Figure out appropriate error messages for incorrect commands
+c-2. (ValidateDirectory) Figure out appropriate error messages for incorrect directories
+d-1. (Speak) Have the shell wait for user input
+d-2. (Speak) Convert text to audio using FreeTTS library
+d-3. (Speak) Have shell terminate the user input when QUIT typed
+e-1. (exit) Write code to quit/terminate the program 
+
+These tasks are assigned as follows:
+
+User: Fariha Fyrooz
+Tasks: 0, a-1, c-2
+
+User: Raisa Haque
+Tasks: 0, b-1, b-2
+
+User: Ava Oveisi
+Tasks: 0, d-1, d-2, d-3 
+
+User: Ananya Poddar
+Tasks: 0, c-1, a-2, e-1
